@@ -4,12 +4,12 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "test",
+            "label": "execute",
             "command": "dotnet",
             "type": "shell",
             "args": [
                 "test",
-                "C:\\Users\\selvaak\\source\\repos\\TestProject_DotNet\\TestProject_DotNet\\bin\\Debug\\netcoreapp3.1\\TestProject_DotNet.dll"
+                "${cwd}\\test\\TestProject_DotNet.dll"
             ],
             "presentation": {
                 "echo": true,
@@ -26,11 +26,7 @@
             "command": "dotnet",
             "type": "shell",
             "args": [
-                "build",
-                // Ask dotnet build to generate full paths for file names.
-                "/property:GenerateFullPaths=true",
-                // Do not generate summary otherwise it leads to duplicate errors in Problems panel
-                "/consoleloggerparameters:NoSummary"
+                "build"
             ],
             "group": "build",
             // "presentation": {
