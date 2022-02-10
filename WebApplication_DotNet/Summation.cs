@@ -27,5 +27,10 @@ namespace WebApplication_DotNet
         {
             return num1 + num2;
         }
+
+        public string concat(string s1, string s2)
+        {
+            return s1 + s2;
+        }
     }
 }
