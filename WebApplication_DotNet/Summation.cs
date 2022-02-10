@@ -23,9 +23,9 @@ namespace WebApplication_DotNet
             return n1 + n2;
         }
 
-        public decimal calculate(decimal num1, decimal num3) 
+        public decimal calculate(decimal num1, decimal num2) 
         {
-            return num1 + num3;
+            return num1 + num2;
         }
     }
 }
