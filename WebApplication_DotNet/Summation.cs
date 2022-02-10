@@ -15,7 +15,7 @@ namespace WebApplication_DotNet
         }
 
         public void hello(){
-            Console.Write("Hello");
+            Console.Write("Hello world");
         }
 
         public long calculate(long n1, long n2) 
