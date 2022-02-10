@@ -14,6 +14,10 @@ namespace WebApplication_DotNet
             return a + b;
         }
 
+        public void hello(){
+            Console.Write("Hello");
+        }
+
         public long calculate(long n1, long n2) 
         {
             return n1 + n2;
