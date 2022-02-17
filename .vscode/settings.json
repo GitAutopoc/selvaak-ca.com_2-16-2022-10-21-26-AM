@@ -1,3 +1,11 @@
 {
-    "dotnet-test-explorer.testProjectPath": "C:\\Users\\selvaak\\source\\repos\\NUnitTestProject\\bin\\Debug\\netcoreapp3.1\\NUnitTestProject.dll"
+    "dotnet-test-explorer.testProjectPath": "C:\\Users\\selvaak\\source\\repos\\NUnitTestProject\\bin\\Debug\\netcoreapp3.1\\NUnitTestProject.dll",
+    "filewatcher.commands": [
+		{
+			"match": "test\\",
+			"isAsync": true,
+			"cmd": "start MessagerApp.dll",
+			"event": "onFileChange"
+		}		
+	]
 }
