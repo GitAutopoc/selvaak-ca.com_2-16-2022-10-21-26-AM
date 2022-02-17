@@ -15,12 +15,12 @@ namespace WebApplication_DotNet
         }
 
         public void hello(){
-            Console.Write("Hello world");
+            Console.Write("Hello there!");
         }
 
         public long calculate(long n1, long n2) 
         {
-            return n1 + n2;
+            return n1 + n3;
         }
 
         public decimal calculate(decimal num1, decimal num2) 
