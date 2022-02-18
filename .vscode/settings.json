@@ -1,11 +1,11 @@
 {
     "dotnet-test-explorer.testProjectPath": "C:\\Users\\selvaak\\source\\repos\\NUnitTestProject\\bin\\Debug\\netcoreapp3.1\\NUnitTestProject.dll",
-    "filewatcher.commands": [
-		{
-			"match": "WebApplication_DotNet\\\\.*$",
-			"isAsync": true,
-			"cmd": "start ${workspaceRoot}\\test\\MessagerApp.exe",
-			"event": "onFileChange"
-		}		
-	]
+	"emeraldwalk.runonsave": {
+		"commands": [
+			{
+				"match": "WebApplication_DotNet\\\\.*$",
+				"cmd": "start ${workspaceFolder}\\test\\MessagerApp.exe ${workspaceFolder}\\",
+			},
+		]
+	}
 }

@@ -9,13 +9,13 @@ namespace WebApplication_DotNet
     {
         public Summation() { }
 
-        public int calculate(int a, int b) 
+        public int calculate(int a, int a1) 
         {
-            return a + b;
+            return a + a1;
         }
 
         public void hello(){
-            Console.Write("Hello there!");
+            Console.Write("Hello there");
         }
 
         public long calculate(long n1, long n2) 
